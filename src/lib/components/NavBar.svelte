@@ -1,10 +1,5 @@
 <script lang="ts">
-	import { page, setPageStore } from "$lib/stores/pageStore";
-
-	let currentPage: string;
-	page.subscribe((value) => {
-		currentPage = value;
-	});
+	import NavLink from "$lib/components/NavLink.svelte";
 
 	// Define href's here
 	const homeHref = "/";
@@ -15,24 +10,12 @@
 	id="nav"
 	class="tabs justify-center pb-6"
 >
-	<a
+	<NavLink
+		label="Home"
 		href={homeHref}
-		on:click={() => {
-			setPageStore(homeHref);
-			console.log(currentPage);
-		}}
-		class={currentPage === homeHref
-			? "tab tab-bordered tab-active"
-			: "tab tab-bordered"}>Home</a
-	>
-	<a
+	/>
+	<NavLink
+		label="Other page"
 		href={otherHref}
-		on:click={() => {
-			setPageStore(otherHref);
-			console.log(currentPage);
-		}}
-		class={currentPage === otherHref
-			? "tab tab-bordered tab-active"
-			: "tab tab-bordered"}>Other page</a
-	>
+	/>
 </div>
