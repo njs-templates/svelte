@@ -16,14 +16,25 @@
 			/>
 		</a>
 		<a
-			href="https://vuejs.org/"
+			href="https://svelte.dev/"
 			target="_blank"
 			rel="noreferrer"
 		>
 			<img
-				src="../assets/vue.svg"
-				class="logo vue"
+				src="/svelte.svg"
+				class="logo svelte"
 				alt="Svelte logo"
+			/>
+		</a>
+		<a
+			href="https://www.typescriptlang.org/"
+			target="_blank"
+			rel="noreferrer"
+		>
+			<img
+				src="/typescript.svg"
+				class="logo ts"
+				alt="TypeScript logo"
 			/>
 		</a>
 	</div>
@@ -46,7 +57,11 @@
 		filter: drop-shadow(0 0 2em #646cffaa);
 	}
 
-	.logo.vue:hover {
-		filter: drop-shadow(0 0 2em #42b883aa);
+	.logo.svelte:hover {
+		filter: drop-shadow(0 0 2em #ff3e00aa);
+	}
+
+	.logo.ts:hover {
+		filter: drop-shadow(0 0 2em #3178c6aa);
 	}
 </style>

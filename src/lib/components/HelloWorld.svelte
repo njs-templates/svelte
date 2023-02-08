@@ -41,8 +41,8 @@
 			for more templates.
 		</p>
 		<p>
-			If you can both pages, everything should be working, so open the
-			README in the root of the directory for your next steps and get
+			If you can load both pages, everything should be working, so open
+			the README in the root of the directory for your next steps and get
 			coding.
 		</p>
 		<p class="read-the-docs">Click on the logos to learn more</p>
