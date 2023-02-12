@@ -1,6 +1,6 @@
 {
-	"name": "svelte2",
-	"version": "0.0.1",
+	"name": "njs-svelte",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

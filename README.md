@@ -54,13 +54,14 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 ## Next steps
 
 - [ ] Run `yarn dev` to start Vite and make sure everything's working.
-- [ ] Delete `LICENSE.txt` from the root of the directory.
-    - If your project still uses an MIT License, just edit the author and year.
-- [ ] Either delete `CHANGELOG.md` or remove its contents.
 - [ ] In `package.json`, change the project name and version.
-- [ ] Delete the boilerplate from `src/routes/+page.svelte`,
+- [ ] Delete the following:
+    - [ ] `LICENSE.txt` from the root of the directory.
+        - If your project still uses an MIT License, just edit the author and year.
+    - [ ] Either delete `CHANGELOG.md` or remove its contents.
+    - [ ] The boilerplate from `src/routes/+page.svelte`,
 `src/lib/components/HelloWorld.svelte` and `src/app.css`.
-    - You can easily do this from the Todo Tree tab in VS Code.
-- [ ] Delete the `.git/` folder if you cloned this repo.
+        - You can easily do this from the Todo Tree tab in VS Code.
+    - [ ] The `.git/` folder if you cloned this repo.
 - [ ] Run a `git init` to start tracking changes.
 - [ ] Do whatever. This code is yours now. Credit is appreciated but not needed.
