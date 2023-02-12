@@ -1,4 +1,6 @@
 <script lang="ts">
+	// TODO: Delete this boilerplate.
+
 	import HelloWorld from "$lib/components/HelloWorld.svelte";
 </script>
 

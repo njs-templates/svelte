@@ -1,6 +1,7 @@
 <script lang="ts">
-	export let msg: string;
+	// TODO: Delete this boilerplate.
 
+	export let msg: string;
 	let count = 0;
 </script>
 
