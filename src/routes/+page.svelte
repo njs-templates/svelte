@@ -1,7 +1,7 @@
 <script lang="ts">
-	// TODO: Delete this boilerplate.
+// TODO: Delete this boilerplate.
 
-	import HelloWorld from "$lib/components/HelloWorld.svelte";
+import HelloWorld from "$lib/components/HelloWorld.svelte";
 </script>
 
 <main>
@@ -44,26 +44,26 @@
 </main>
 
 <style scoped>
-	.main-content {
-		@apply flex place-content-center;
-		margin: 0 auto;
-	}
+.main-content {
+	@apply flex place-content-center;
+	margin: 0 auto;
+}
 
-	.logo {
-		height: 10em;
-		padding: 1.5em;
-		will-change: filter;
-	}
+.logo {
+	height: 10em;
+	padding: 1.5em;
+	will-change: filter;
+}
 
-	.logo:hover {
-		filter: drop-shadow(0 0 2em #646cffaa);
-	}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
 
-	.logo.svelte:hover {
-		filter: drop-shadow(0 0 2em #ff3e00aa);
-	}
+.logo.svelte:hover {
+	filter: drop-shadow(0 0 2em #ff3e00aa);
+}
 
-	.logo.ts:hover {
-		filter: drop-shadow(0 0 2em #3178c6aa);
-	}
+.logo.ts:hover {
+	filter: drop-shadow(0 0 2em #3178c6aa);
+}
 </style>

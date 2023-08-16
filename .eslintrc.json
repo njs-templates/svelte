@@ -34,17 +34,6 @@
 		"svelte3/typescript": true
 	},
 	"rules": {
-		"@typescript-eslint/naming-convention": [
-			"warn",
-			{
-				"selector": "variable",
-				"format": ["camelCase"]
-			},
-			{
-				"selector": "class",
-				"format": ["PascalCase"]
-			}
-		],
 		"curly": "error",
 		"eqeqeq": "error",
 		"no-throw-literal": "warn",
