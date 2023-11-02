@@ -1,8 +1,8 @@
 <script lang="ts">
-	// TODO: Delete this boilerplate.
+// TODO: Delete this boilerplate.
 
-	export let msg: string;
-	let count = 0;
+export let msg: string;
+let count = 0;
 </script>
 
 <main>
@@ -51,11 +51,11 @@
 </main>
 
 <style scoped>
-	code {
-		@apply bg-base-300;
-	}
+code {
+	@apply bg-base-300;
+}
 
-	.read-the-docs {
-		@apply text-accent;
-	}
+.read-the-docs {
+	@apply text-accent;
+}
 </style>

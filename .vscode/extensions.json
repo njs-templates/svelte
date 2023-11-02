@@ -9,6 +9,7 @@
 		"streetsidesoftware.code-spell-checker",
 		"gruntfuggly.todo-tree",
 		"donjayamanne.githistory",
-		"mhutchie.git-graph"
+		"mhutchie.git-graph",
+		"editorconfig.editorconfig"
 	]
 }
