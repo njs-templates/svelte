@@ -5,13 +5,13 @@
 2025
 
 - Upgraded dependencies for Svelte 5 and DaisyUI 5
-	- Svelte: 4.2.2 -> 5.38.2
-	- SvelteKit: 1.27.2 -> 2.36.0
-	- Tailwind: 3.3.5 -> 4.1.12
-	- daisyUI: 3.9.4 -> 5.0.50
-	- Typescript: 5.2.2 -> 5.9.2
-	- Vite: 4.5.0 -> 7.1.3
-	- and more
+    - Svelte: 4.2.2 -> 5.38.2
+    - SvelteKit: 1.27.2 -> 2.36.0
+    - Tailwind: 3.3.5 -> 4.1.12
+    - daisyUI: 3.9.4 -> 5.0.50
+    - Typescript: 5.2.2 -> 5.9.2
+    - Vite: 4.5.0 -> 7.1.3
+    - and more
 - Switched package manager from Yarn to PNPM
 
 ## v1.1.0
@@ -19,11 +19,11 @@
 November 11, 2023
 
 - Upgraded dependencies for Svelte 4 and DaisyUI 3
-  - Svelte: 3.54.0 -> 4.2.2
-  - SvelteKit: 1.0.0 -> 1.27.2
-  - TailwindCSS: 3.2.4 -> 3.3.5
-  - DaisyUI: 2.50.0 -> 3.9.4
-  - And more
+    - Svelte: 3.54.0 -> 4.2.2
+    - SvelteKit: 1.0.0 -> 1.27.2
+    - TailwindCSS: 3.2.4 -> 3.3.5
+    - DaisyUI: 2.50.0 -> 3.9.4
+    - And more
 - Improved format and lint commands
 - Added editorconfig
 
