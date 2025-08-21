@@ -55,6 +55,8 @@ let count = $state(0);
 </main>
 
 <style scoped>
+@reference "../../app.css";
+
 code {
 	@apply bg-base-300;
 }
