@@ -13,6 +13,7 @@
     - Vite: 4.5.0 -> 7.1.3
     - and more
 - Switched package manager from Yarn to PNPM
+- Added Vitest (3.2.4)
 
 ## v1.1.0
 
