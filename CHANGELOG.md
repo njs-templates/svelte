@@ -14,6 +14,7 @@
     - and more
 - Switched package manager from Yarn to PNPM
 - Added Vitest (3.2.4)
+- Removed unnecessary VS Code extensions
 
 ## v1.1.0
 
