@@ -1,18 +1,22 @@
 <script lang="ts">
 import { page, setPageStore } from "$lib/stores/pageStore";
 
-let currentPage: string;
+let currentPage: string = $state();
 page.subscribe((value) => {
 	currentPage = value;
 });
 
-export let href: string;
-export let label: string;
+interface Props {
+	href: string;
+	label: string;
+}
+
+let { href, label }: Props = $props();
 </script>
 
 <a
 	{href}
-	on:click={() => {
+	onclick={() => {
 		setPageStore(href);
 		console.log(currentPage);
 	}}

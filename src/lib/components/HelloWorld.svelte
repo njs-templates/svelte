@@ -1,8 +1,12 @@
 <script lang="ts">
 // TODO: Delete this boilerplate.
 
-export let msg: string;
-let count = 0;
+interface Props {
+	msg: string;
+}
+
+let { msg } = $props();
+let count = $state(0);
 </script>
 
 <main>
@@ -11,7 +15,7 @@ let count = 0;
 		<button
 			class="btn btn-primary font-bold"
 			type="button"
-			on:click={() => {
+			onclick={() => {
 				count++;
 			}}
 		>
