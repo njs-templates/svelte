@@ -21,6 +21,6 @@ let { href, label }: Props = $props();
 		console.log(currentPage);
 	}}
 	class={currentPage === href
-		? "tab tab-bordered tab-active"
-		: "tab tab-bordered"}>{label}</a
+		? "tab tab-active text-primary nav-link"
+		: "tab text-base-content! hover:underline! nav-link"}>{label}</a
 >
