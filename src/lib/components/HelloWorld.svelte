@@ -19,11 +19,11 @@ let count = $state(0);
 				count++;
 			}}
 		>
-			count is {count}
+			Count is {count}
 		</button>
 		<p>
-			This page works with any Daisy UI theme! Try it out and change
-			<code>daisyui.themes</code> in <code>tailwind.config.cjs</code>.
+			This page works with any daisyUI theme! Try it out and change
+			<code>daisyui.themes</code> in <code>src/styles/global.css</code>.
 		</p>
 
 		<p>
@@ -32,8 +32,10 @@ let count = $state(0);
 				class="link"
 				href="https://github.com/njs-templates"
 				target="_blank"
-				rel="noreferrer">NJS Templates</a
+				rel="noreferrer"
 			>
+				NJS Templates
+			</a>
 			and
 			<a
 				class="link"
@@ -41,8 +43,8 @@ let count = $state(0);
 				target="_blank"
 				rel="noreferrer"
 			>
-				Awesome Vite</a
-			>
+				Awesome Vite
+			</a>
 			for more templates.
 		</p>
 		<p>
@@ -50,7 +52,7 @@ let count = $state(0);
 			the README in the root of the directory for your next steps and get
 			coding.
 		</p>
-		<p class="read-the-docs">Click on the logos to learn more</p>
+		<p class="text-accent">Click on the logos to learn more</p>
 	</div>
 </main>
 
@@ -58,10 +60,6 @@ let count = $state(0);
 @reference "../../app.css";
 
 code {
-	@apply bg-base-300;
-}
-
-.read-the-docs {
-	@apply text-accent;
+	@apply font-bold bg-base-300;
 }
 </style>

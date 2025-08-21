@@ -4,19 +4,12 @@
 import HelloWorld from "$lib/components/HelloWorld.svelte";
 </script>
 
+<svelte:head>
+	<title>njs-guy's Svelte Template</title>
+</svelte:head>
+
 <main>
 	<div class="main-content">
-		<a
-			href="https://vitejs.dev"
-			target="_blank"
-			rel="noreferrer"
-		>
-			<img
-				src="/vite.svg"
-				class="logo"
-				alt="Vite logo"
-			/>
-		</a>
 		<a
 			href="https://svelte.dev/"
 			target="_blank"
@@ -26,6 +19,17 @@ import HelloWorld from "$lib/components/HelloWorld.svelte";
 				src="/svelte.svg"
 				class="logo svelte"
 				alt="Svelte logo"
+			/>
+		</a>
+		<a
+			href="https://daisyui.com/"
+			target="_blank"
+			rel="noreferrer"
+		>
+			<img
+				src="/daisyui.svg"
+				class="logo daisyui"
+				alt="daisyUI logo"
 			/>
 		</a>
 		<a
@@ -40,7 +44,7 @@ import HelloWorld from "$lib/components/HelloWorld.svelte";
 			/>
 		</a>
 	</div>
-	<HelloWorld msg="Vite + Svelte Kit + TypeScript" />
+	<HelloWorld msg="Svelte Kit + daisyUI + TypeScript" />
 </main>
 
 <style scoped>
@@ -61,6 +65,10 @@ import HelloWorld from "$lib/components/HelloWorld.svelte";
 
 .logo.svelte:hover {
 	filter: drop-shadow(0 0 2em #ff3e00aa);
+}
+
+.logo.daisyui:hover {
+	filter: drop-shadow(0 0 2em #ffd420aa);
 }
 
 .logo.ts:hover {
