@@ -5,7 +5,7 @@ interface Props {
 	msg: string;
 }
 
-let { msg } = $props();
+let { msg }: Props = $props();
 let count = $state(0);
 </script>
 

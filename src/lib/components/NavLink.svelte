@@ -1,7 +1,7 @@
 <script lang="ts">
 import { page, setPageStore } from "$lib/stores/pageStore";
 
-let currentPage: string = $state();
+let currentPage: string | undefined = $state();
 page.subscribe((value) => {
 	currentPage = value;
 });
