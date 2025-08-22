@@ -1,30 +1,18 @@
-# NJS's Svelte Kit Template
+# njs-guy's Svelte Kit Template
 
 A nice and simple Svelte Kit template to let me (or anyone else)
 quickly whip up new projects.
 
 ## Features
 
-- [Svelte](https://svelte.dev/) + [Svelte Kit](https://kit.svelte.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Svelte](https://svelte.dev/) + [Svelte Kit](https://svelte.dev/docs/kit/introduction)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [Yarn](https://yarnpkg.com/) for package management
+- [PNPM](https://pnpm.io/) for package management
 - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
   with some sensible defaults.
 - [Tailwind CSS](https://tailwindcss.com/) + [DaisyUI](https://daisyui.com/)
-
-### VS Code Extensions
-
-- [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-- [JavaScript and TypeScript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
-- [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-  with some basic settings.
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- [Vitest](https://vitest.dev/) for testing
 
 ## Coding style
 
@@ -40,7 +28,7 @@ You can download this repo as a .zip or clone it with git,
 but a cleaner approach is with [degit](https://github.com/Rich-Harris/degit).
 
 ```bash
-npx degit njs-templates/njs-svelte new-project
+npx degit njs-templates/svelte new-project
 cd new-project
 yarn
 ```
@@ -53,9 +41,18 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 
 ## Next steps
 
-- [ ] Run `yarn dev` to start Vite and make sure everything's working.
-- [ ] In `package.json`, change the project name and version.
-- [ ] Delete the following: - [ ] `LICENSE.txt` from the root of the directory. - If your project still uses an MIT License, just edit the author and year. - [ ] Either delete `CHANGELOG.md` or remove its contents. - [ ] The boilerplate from `src/routes/+page.svelte`,
-      `src/lib/components/HelloWorld.svelte` and `src/app.css`. - You can easily do this from the Todo Tree tab in VS Code. - [ ] The `.git/` folder if you cloned this repo.
-- [ ] Run a `git init` to start tracking changes.
-- [ ] Do whatever. This code is yours now. Credit is appreciated but not needed.
+1. Run `pnpm dev` to start Vite and make sure everything's working.
+2. Run `pnpm build` to make sure that building works.
+3. Run `pnpm test` to make sure Vitest is working.
+4. In `package.json`, change the project name and version.
+5. Delete the following:
+    1. `LICENSE.txt` from the root of the directory.
+        - If your project still uses an MIT License, just edit the author and year.
+	2. Either delete `CHANGELOG.md` or remove its contents.
+    3. The boilerplate from `src/lib/`, and  `static/`.
+    4. `pnpm-lock.yaml` if you want to use a different package manager.
+    5. The `.git/` folder if you cloned this repo.
+6. Run a `git init` to start tracking changes.
+
+After all that, do whatever. This code is yours now.
+Credit is appreciated but not needed.

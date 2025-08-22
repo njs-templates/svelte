@@ -2,7 +2,7 @@
 
 ## v1.2.0
 
-2025
+August 22, 2025
 
 - Upgraded dependencies for Svelte 5 and DaisyUI 5
     - Svelte: 4.2.2 -> 5.38.2
