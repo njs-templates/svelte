@@ -1,22 +1,26 @@
 <script lang="ts">
 import { page, setPageStore } from "$lib/stores/pageStore";
 
-let currentPage: string;
+let currentPage: string | undefined = $state();
 page.subscribe((value) => {
 	currentPage = value;
 });
 
-export let href: string;
-export let label: string;
+interface Props {
+	href: string;
+	label: string;
+}
+
+let { href, label }: Props = $props();
 </script>
 
 <a
 	{href}
-	on:click={() => {
+	onclick={() => {
 		setPageStore(href);
 		console.log(currentPage);
 	}}
 	class={currentPage === href
-		? "tab tab-bordered tab-active"
-		: "tab tab-bordered"}>{label}</a
+		? "tab tab-active text-primary nav-link"
+		: "tab text-base-content! hover:underline! nav-link"}>{label}</a
 >
